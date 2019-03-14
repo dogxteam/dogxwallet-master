@@ -1,0 +1,33 @@
+# /etc/conf.d/dogxcoind: config file for /etc/init.d/dogxcoind
+
+# Config file location
+#dogxCOIND_CONFIGFILE="/etc/dogxcoin/dogxcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $dogxCOIND_USER)
+#dogxCOIND_PIDDIR="/var/run/dogxcoind"
+
+# What filename to give the pidfile
+#dogxCOIND_PIDFILE="${dogxCOIND_PIDDIR}/dogxcoind.pid"
+
+# Where to write dogxcoind data (be mindful that the blockchain is large)
+#dogxCOIND_DATADIR="/var/lib/dogxcoind"
+
+# User and group to own dogxcoind process
+#dogxCOIND_USER="dogxcoin"
+#dogxCOIND_GROUP="dogxcoin"
+
+# Path to dogxcoind executable
+#dogxCOIND_BIN="/usr/bin/dogxcoind"
+
+# Nice value to run dogxcoind under
+#dogxCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#dogxCOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for dogxcoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+dogxCOIND_SIGTERM_TIMEOUT=60
