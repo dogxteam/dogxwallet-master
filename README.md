@@ -3,7 +3,7 @@ dogxcoin Core integration/staging tree
 
 [![Build Status](https://travis-ci.org/dogxcoin/dogxcoin.svg?branch=master)](https://travis-ci.org/dogxcoin/dogxcoin)
 
-https://dogxcoincore.org
+https://www.dogx.dog
 
 What is dogxcoin?
 ----------------
@@ -15,20 +15,20 @@ out collectively by the network. dogxcoin Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the dogxcoin Core software, see https://dogxcoincore.org/en/download/, or read the
+the dogxcoin Core software, see https://www.dogx.dog/en/download/, or read the
 [original whitepaper](https://dogxcoincore.org/dogxcoin.pdf).
 
 License
 -------
 
 dogxcoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
-information or see https://opensource.org/licenses/MIT.
+information or see https://www.dogx.dog/licenses/MIT.
 
 Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/dogxcoin/dogxcoin/tags) are created
+completely stable. [Tags](https://github.com/dogxcoin) are created
 regularly to indicate new official, stable release versions of dogxcoin Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md)
